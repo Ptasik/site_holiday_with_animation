@@ -1,0 +1,796 @@
+
+body {
+    font-family: Kurale, sans-serif;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #f53f2c;
+    text-decoration: none;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* ---------------------
+--------------------- */
+
+.highlight {
+    color: #f53f2c;
+}
+
+h1 {
+    font-size: 138px;
+}
+
+h2 {
+    font-family: Cookie, cursive;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+/* ---------------------
+--------------------- */
+
+p {
+    font-size: 13px;
+    line-height: 1.7em;
+    color: #b2b2b2;
+}
+
+/* ---------------------
+--------------------- */
+.btn:focus,
+input:focus {
+    outline: none;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+.btn:focus {
+    background: #b73426;
+    color: #fff;
+    border: 2px solid #f53f2c;
+}
+
+.btn-default {
+    background: none;
+    color: #f53f2c;
+    border: 3px solid #f53f2c;
+}
+
+.btn-default:hover {
+    background: #f53f2c;
+    color: #fff;
+    border: 2px solid #b73426;
+}
+
+/* ---------------------
+--------------------- */
+input {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #b2b2b2;
+    margin: 30px 5px;
+    color: #b2b2b2;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+input:focus {
+    border: 2px solid #f53f2c;
+}
+
+/* ---------------------
+--------------------- */
+.sectionhead {
+    padding: 0 150px;
+}
+
+.sectionhead h2 {
+    padding-bottom: 10px;
+}
+
+.sectionhead p {
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.sectionhead hr {
+    width: 75px;
+    border-bottom: 4px solid #eeeeee;
+}
+
+/* ---------------------
+--------------------- */
+
+p {
+    font-size: 13px;
+    line-height: 1.7rem;
+    color: #b2b2b2;
+}
+
+#first_section {
+    max-height: 560px;
+    color: white;
+    background: url("../image/street.jpg") fixed no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#first_section .container {
+    padding-top: 70px;
+
+}
+
+#first_section h1 {
+    font-weight: 800;
+    text-shadow: 7px 9px 5px rgba(161, 19, 15, 0.294);
+    line-height: .8em;
+}
+
+#first_section p {
+    padding-top: 75px;
+    color: white;
+}
+
+.redoverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 24, 0, 0.75);
+}
+
+#holiday_season_sale {
+    font-size: 50px;
+    animation-duration: 3s;
+}
+
+#time_again {
+    font-size: 100px;
+}
+
+#save_up_to {
+    border: 3px solid white;
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    width: 60%;
+    padding: 20px;
+    margin-top: 30px;
+    position: relative;
+    left: 22%;
+    border-radius: 0;
+    font-size: 32px;
+}
+
+#save_up_to:hover {
+    color: white;
+    border-radius: 45px;
+}
+
+#offer_ends {
+    animation-duration: 2s;
+}
+
+#bigbell {
+    animation-duration: 30s;
+    margin-top: 0;
+    height: 180px;
+    width: 180px;
+}
+
+.santa {
+    float: right;
+    margin-top: -370px;
+}
+
+.santa_pic {
+    margin-top: 60px;
+    height: 339px;
+    width: 272px;
+}
+
+#second_section {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.col-md-6, .col-lg-4 {
+    padding-top: 50px;
+}
+
+#second_section img {
+    height: 120px;
+}
+
+#third_section {
+    margin-top: 75px;
+    background: url("../image/street.jpg") fixed no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.lightoverlay {
+    background-color: rgba(248, 248, 248, 0.9);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#third_section .content {
+    padding: 65px 0;
+}
+
+#third_section p {
+    color: #9f9f9f;
+}
+
+#third_section img {
+    margin-top: -30px;
+    margin-bottom: -15px;
+    height: 428px;
+    width: 343px;
+}
+
+#fourth_section {
+    margin-top: 75px;
+    background: url("../image/price_tag.png") no-repeat right 0;
+    background-size: 143px 148px;
+}
+
+.featureditem {
+    padding: 75px 0 20px;
+}
+
+.featureditemimg {
+    margin-top: -20px;
+}
+
+.productimg {
+    max-width: 100%;
+}
+
+.productimg:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.price {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.offertag {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: rotate(351deg);
+    -ms-transform: rotate(351deg);
+    -moz-transform: rotate(351deg);
+    -webkit-transform: rotate(351deg);
+    -o-transform: rotate(351deg);
+}
+
+.offertag h4 {
+    margin-bottom: 0;
+}
+
+.offertag p {
+    color: white;
+}
+
+.bigtag {
+    top: 10px;
+    left: 400px;
+}
+
+.smalltag {
+    top: 100px;
+    left: 110px;
+    -webkit-transform: rotate(351deg) scale(.8);
+    -moz-transform: rotate(351deg) scale(.8);
+    -o-transform: rotate(351deg) scale(.8);
+    -ms-transform: rotate(351deg) scale(.8);
+}
+
+.fixedoffer {
+    background: #89d055;
+}
+
+.percentoffer {
+    background: #f53f2c;
+}
+
+.otheroffer {
+    background: #668bde;
+}
+
+#fifth_section {
+    margin-top: 155px;
+    background: url("../image/street.jpg") fixed no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.darkoverlay {
+    background-color: rgba(54, 57, 66, 0.75);
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+#fifth_section .container {
+    padding: 65px 0;
+}
+
+.santaicon {
+    animation-duration: 20s;
+    margin-top: -160px;
+    overflow: hidden;
+    width: 205px;
+    height: 205px;
+
+}
+
+#sixth_section {
+    padding: 75px 0 30px;
+}
+
+.logo {
+    margin-top: -20px;
+}
+
+.santacap {
+    margin-top: -120px;
+    margin-left: -210px;
+    height: 48px;
+    width: 48px;
+}
+
+#sixth_section hr {
+    width: 75px;
+    border-bottom: 4px solid #eee;
+}
+
+#seventh_section {
+    position: fixed;
+    right: -125px;
+    top: 130px;
+    width: 200px;
+}
+
+.sticky li {
+    list-style: none;
+    background-color: #333;
+    color: #b2b2b2;
+    height: 36px;
+    margin: 0 0 3px 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+}
+
+.sticky li:hover {
+    margin-left: -115px;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.sticky li img {
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+    padding: 2px;
+}
+
+.sticky li p {
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #time_again {
+        font-size: 70px;
+    }
+
+    #save_up_to {
+        font-size: 30px;
+    }
+
+    .santa {
+        position: absolute;
+        right: 0;
+        top: 650px;
+    }
+
+    .bigtag {
+        top: 45px;
+        left: 75%;
+    }
+
+    #third_section img {
+        margin-top: -30px;
+        margin-bottom: -15px;
+        margin-left: -50px;
+        height: 428px;
+        width: 343px;
+    }
+
+    .smalltag {
+        margin-left: 60%;
+    }
+
+    .productimg {
+        margin-bottom: 20px;
+        margin-left: 12%;
+        width: 75%;
+    }
+
+    .product_text {
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    body {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 110px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    #holiday_season_sale {
+        font-size: 45px;
+    }
+
+    #time_again {
+        font-size: 60px;
+    }
+
+    #save_up_to {
+        font-size: 24px;
+        padding: 10px;
+
+    }
+
+    .sectionhead {
+        padding: 0;
+    }
+
+    #fourth_section img {
+        margin-left: 0;
+    }
+
+    .productimg {
+        margin-bottom: 20px;
+        width: 75%;
+    }
+
+    .bigbell {
+        margin-top: 20px;
+        height: 180px;
+        width: 180px;
+    }
+
+    .bigtag {
+        top: 20%;
+        left: 70%;
+    }
+
+    .smalltag {
+        margin-left: 60%;
+    }
+
+    .santa {
+        top: 650px;
+        position: absolute;
+        right: 0;
+    }
+
+    .santa img {
+        width: 250px;
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 95px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    #first_section {
+        height: 500px;
+    }
+
+    #holiday_season_sale {
+        font-size: 45px;
+    }
+
+    #time_again {
+        font-size: 50px;
+    }
+
+    #save_up_to {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+    .bigbell {
+        margin-top: 0;
+    }
+
+    .smalltag {
+        margin-left: 55%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .sticky, .santa{
+        display: none;
+    }
+
+    h1{
+        font-size: 75px;
+    }
+
+    h3{
+        font-size: 13px;
+        margin: 0;
+    }
+
+    #first_section{
+        height: 360px;
+    }
+
+    #first_section .container{
+        padding-top: 30px;
+    }
+
+    #first_section p{
+        padding-top: 60px;
+    }
+
+    #holiday_season_sale{
+        font-size: 40px;
+    }
+
+    #time_again{
+        font-size: 45px;
+    }
+
+    #save_up_to{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #offer_ends{
+        margin-top: 0;
+    }
+
+    .bigbell{
+        height: 110px;
+        width: 110px;
+        position: absolute;
+        top: 300px;
+        left: 30%;
+    }
+
+    .bigtag{
+        left: 65%;
+    }
+
+    .smalltag{
+        margin-left: 50%;
+    }
+
+    input{
+        padding: 15px 30px;
+        width: 85%;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    h1{
+        font-size: 60px;
+    }
+
+    .h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+
+    .sectionhead p{
+        font-size: 14px;
+    }
+
+    #first_section{
+        height: 320px;
+    }
+
+    #first_section .btn{
+        margin-top: 10px;
+    }
+
+    #holiday_season_sale{
+        font-size: 30px;
+    }
+
+    #time_again{
+        font-size: 30px;
+    }
+
+    #save_up_to{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #offer_ends{
+        margin-top: -30px;
+    }
+
+    #third_section img{
+        max-width: 100%;
+    }
+
+    .bigbell{
+        top: 270px;
+        left: 30%;
+    }
+
+    .smalltag{
+        left: 0;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .santaicon{
+        height: 200px;
+        width: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 380px){
+
+    h1{
+        font-size: 50px;
+    }
+
+    #first_section .container{
+        padding-top: 50px;
+    }
+
+    #holiday_season_sale{
+        font-size: 26px;
+    }
+
+    #time_again{
+        font-size: 34px;
+    }
+
+    #save_up_to{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    #offer_ends{
+        margin-top: -20px;
+    }
+
+    .optional{
+        display: none;
+    }
+
+    .bigtag{
+        left: 60%;
+    }
+
+    .bigbell{
+        display: none;
+    }
+
+    .smalltag{
+        left: 180px;
+    }
+
+    #fourth_section{
+        background: none;
+    }
+
+    .santaicon{
+        height: 160px;
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+
+    #save_up_to{
+        font-size: 15px;
+    }
+
+    #offer_ends{
+        margin-top: -10px;
+    }
+
+    #second_section{
+        padding-top: 50px;
+    }
+
+    .bigtag{
+        left: 180px;
+    }
+
+}
